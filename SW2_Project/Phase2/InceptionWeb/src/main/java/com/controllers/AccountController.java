@@ -36,7 +36,7 @@ public class AccountController {
 		IUser user = userService.findbyNameAndPassword(loginForm.getUsername(), loginForm.getPassword());
 		user = userService.findByName(loginForm.getUsername());
 		if (user == null)
-			return "users/login";
+			return "redirect:/users/login";
 		loginService.setCurrentUserID(user.getUsername());
 		if (user.isTeacher())
 			return "redirect:/teacher";
