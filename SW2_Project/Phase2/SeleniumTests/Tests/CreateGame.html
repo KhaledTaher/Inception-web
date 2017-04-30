@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://localhost:8080/" />
+<title>CreateGame</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">CreateGame</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/teacher</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Create Game</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=gamename</td>
+	<td>Watch The Sky</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=questions</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=gamecourse</td>
+	<td>Science</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=label</td>
+	<td>How many planets are there?</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=one</td>
+	<td>9</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=two</td>
+	<td>7</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=three</td>
+	<td>8</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=rightAnswer</td>
+	<td>8</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=label</td>
+	<td>What is the galaxy called?</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=one</td>
+	<td>fire crystal</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=two</td>
+	<td>shinny scope</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=three</td>
+	<td>milky way</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=rightAnswer</td>
+	<td>milky way</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=p</td>
+	<td>Watch The Sky</td>
+</tr>
+</tbody></table>
+</body>
+</html>
