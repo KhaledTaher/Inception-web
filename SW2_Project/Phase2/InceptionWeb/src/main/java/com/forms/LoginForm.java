@@ -2,7 +2,7 @@ package com.forms;
 
 import com.sun.istack.internal.NotNull;
 
-import javax.validation.constraints.Size;
+//import javax.validation.constraints.Size;
 
 public class LoginForm {
 
@@ -11,7 +11,7 @@ public class LoginForm {
     private String username;
 
     @Size(min = 3)
-    @NotNull
+    //@NotNull
     private String password;
 
     public String getUsername() {
